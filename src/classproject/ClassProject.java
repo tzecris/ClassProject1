@@ -243,7 +243,6 @@ public class ClassProject {
                         p.setId(result.getInt("PERSON_ID"));
                         p.setFirstName(result.getString("FIRST_NAME"));
                         p.setLastName(result.getString("LAST_NAME"));
-
                         System.out.println(p);
                     }
                     result.close();
